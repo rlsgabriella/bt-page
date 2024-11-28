@@ -1,7 +1,59 @@
-
-
 img {
-    width: 200px;
+    width: 100px;
 }
 
 
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('/images/energia-solar.webp');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    gap: 40px;
+}
+
+.container img {
+
+    width: 400px;
+}
+
+.txt-container{
+    width: 400px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.solar-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+p {
+    text-align: justify;
+    color: #555;
+}
